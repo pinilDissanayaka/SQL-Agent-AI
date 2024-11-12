@@ -2,6 +2,8 @@
 
 SQL Agent AI is your intelligent assistant for SQL tasks! Powered by cutting-edge Large Language Models (LLMs), this tool lets you generate, optimize, and troubleshoot SQL queries with ease. Say goodbye to complex SQL writing—just ask, and SQL Agent AI will handle the rest!
 
+![sqlAgent](https://github.com/user-attachments/assets/80edb8b2-cd4e-4b69-9a2f-8fbc6933d71a)
+
 ## ✨ Features
 1. 🔄 Natural Language to SQL Query Conversion
 - Effortlessly turn plain English into SQL queries.
