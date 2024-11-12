@@ -3,11 +3,14 @@ import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
 from database import connect_to_database
 from secret import load_secrets
-from chat import get_llm_response
+from agent import invoke_agent
+
+
+st.set_page_config(page_title="SQL Agent AI 🧠💻", page_icon=":robot_face:")
 
 
 
-st.title("SQLGenie AI Your Intelligent SQL Query Assistant")
+st.title("SQL Agent AI Your Intelligent SQL Query Agent")
 
 
 with st.sidebar:
@@ -120,7 +123,7 @@ if "database" in st.session_state:
             chat_history = st.session_state.chat_history
             database = st.session_state.database
             
-            response = get_llm_response(user_query=user_query, database=database, chat_history=chat_history)
+            response = invoke_agent(user_input=user_query, database=database)
             
             
             st.markdown(response)

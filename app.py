@@ -4,31 +4,35 @@ from database import connect_to_database
 from secret import load_secrets
 
 
-st.set_page_config(page_title="SQLGenie-AI", page_icon=":robot_face:")
+st.set_page_config(page_title="SQL Agent AI 🧠💻", page_icon=":robot_face:")
 
 
-st.title("SQLGenie AI Your Intelligent SQL Query Assistant")
+st.title("Welcome to SQL Agent AI 🧠💻")
 
 st.image("assets/cover.jpg")
 
 st.subheader("Welcome to SQLGenie AI! 🌟")
 
-st.write("Transform the way you interact with your data using SQLGenie AI, your intelligent SQL query assistant. Whether you're a data analyst, developer, or a non-technical user, SQLGenie AI turns your natural language questions into accurate SQL queries. Dive into a seamless experience where generating and executing complex database queries is as simple as asking a question.")
+st.write("Meet SQL Agent AI, your intelligent assistant for all things SQL! Designed to transform the way you interact with databases, this cutting-edge tool bridges the gap between natural language and SQL, empowering you to generate, optimize, and troubleshoot queries effortlessly.")
 
 
-st.subheader("Key Benefits:")
+st.subheader("✨ Key Features:")
 
-st.write("No Coding Required: Ask questions in plain English and get SQL queries in seconds.")
+st.write("Natural Language Query Generation: Simply type your request in plain English and watch as SQL Agent AI crafts a fully functional SQL query.")
 
-st.write("Instant Query Execution: Connect to your database, run queries, and view results with just a click.")
+st.write("Advanced Query Optimization: Receive smart suggestions to boost performance and adhere to best practices.")
 
 st.write("User-Friendly Interface: Powered by Streamlit for a smooth and interactive experience.")
 
 st.write("Trusted by Professionals: Built on cutting-edge LLM technology with LangChain and Meta Llama 3.2 70b.")
 
-st.write("Ready to make data exploration more intuitive and efficient? Let SQLGenie AI guide your journey.")
+st.write("Error Handling and Debugging: Get immediate feedback on any issues and understand your code with detailed explanations.")
 
-st.subheader("Get Started Now!")
+st.write("Result Visualization: Execute your SQL queries and visualize the data with charts and tables for better insights.")
+
+st.write("Choose between OpenAI GPT or Meta LLaMA 3.2 70B for different performance needs and customize your database connections to suit your workflow. SQL Agent AI makes your SQL experience faster, smarter, and more intuitive. 🌟")
+
+st.subheader("Try it out and revolutionize your SQL workflow today!")
 
 with st.sidebar:
     

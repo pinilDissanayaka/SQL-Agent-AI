@@ -5,7 +5,7 @@ from secret import load_secrets
 
 
 
-st.set_page_config(page_title="SQLGenie-AI", page_icon=":robot_face:")
+st.set_page_config(page_title="SQL Agent AI 🧠💻", page_icon=":robot_face:")
 
 with st.sidebar:
     
